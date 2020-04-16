@@ -1,0 +1,24 @@
+{
+  "name": "typescript-code-snippets",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "prettier '**/*.{ts,tsx,md,json}' --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maomao1996/typescript-code-snippets.git"
+  },
+  "author": "maomao1996",
+  "bugs": {
+    "url": "https://github.com/maomao1996/typescript-code-snippets/issues"
+  },
+  "homepage": "https://github.com/maomao1996/typescript-code-snippets#readme",
+  "dependencies": {
+    "prettier": "^2.0.4",
+    "typescript": "^3.8.3"
+  }
+}
